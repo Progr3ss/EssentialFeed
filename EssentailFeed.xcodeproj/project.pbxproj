@@ -15,6 +15,8 @@
 		91379A4D269D5E18009C1ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91379A4B269D5E18009C1ECF /* LaunchScreen.storyboard */; };
 		91379A58269D5E18009C1ECF /* EssentailFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A57269D5E18009C1ECF /* EssentailFeedTests.swift */; };
 		91379A63269D5E18009C1ECF /* EssentailFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A62269D5E18009C1ECF /* EssentailFeedUITests.swift */; };
+		91379A71269D6182009C1ECF /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A70269D6182009C1ECF /* FeedItem.swift */; };
+		91379A73269D61D5009C1ECF /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A72269D61D5009C1ECF /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		91379A5E269D5E18009C1ECF /* EssentailFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentailFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91379A62269D5E18009C1ECF /* EssentailFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentailFeedUITests.swift; sourceTree = "<group>"; };
 		91379A64269D5E18009C1ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91379A70269D6182009C1ECF /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		91379A72269D61D5009C1ECF /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				91379A49269D5E18009C1ECF /* Assets.xcassets */,
 				91379A4B269D5E18009C1ECF /* LaunchScreen.storyboard */,
 				91379A4E269D5E18009C1ECF /* Info.plist */,
+				91379A70269D6182009C1ECF /* FeedItem.swift */,
+				91379A72269D61D5009C1ECF /* FeedLoader.swift */,
 			);
 			path = EssentailFeed;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91379A71269D6182009C1ECF /* FeedItem.swift in Sources */,
 				91379A45269D5E16009C1ECF /* ViewController.swift in Sources */,
 				91379A41269D5E16009C1ECF /* AppDelegate.swift in Sources */,
+				91379A73269D61D5009C1ECF /* FeedLoader.swift in Sources */,
 				91379A43269D5E16009C1ECF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
