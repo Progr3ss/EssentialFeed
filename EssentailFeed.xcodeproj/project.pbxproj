@@ -110,8 +110,7 @@
 				91379A49269D5E18009C1ECF /* Assets.xcassets */,
 				91379A4B269D5E18009C1ECF /* LaunchScreen.storyboard */,
 				91379A4E269D5E18009C1ECF /* Info.plist */,
-				91379A70269D6182009C1ECF /* FeedItem.swift */,
-				91379A72269D61D5009C1ECF /* FeedLoader.swift */,
+				91379A74269D62BE009C1ECF /* Feed Feature */,
 			);
 			path = EssentailFeed;
 			sourceTree = "<group>";
@@ -132,6 +131,15 @@
 				91379A64269D5E18009C1ECF /* Info.plist */,
 			);
 			path = EssentailFeedUITests;
+			sourceTree = "<group>";
+		};
+		91379A74269D62BE009C1ECF /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				91379A70269D6182009C1ECF /* FeedItem.swift */,
+				91379A72269D61D5009C1ECF /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

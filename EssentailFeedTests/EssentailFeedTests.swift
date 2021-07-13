@@ -8,26 +8,16 @@
 import XCTest
 @testable import EssentailFeed
 
-class EssentailFeedTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class RemoteFeedLoader {
+    
+}
+class HTTPClient {
+    var requestedURL: URL?
+}
+class EssentialFeedTests: XCTestCase {
+    func test_init_doesNotRequestDataFromURL() {
+       let client = HTTPClient()
+        _ =  RemoteFeedLoader()
+        XCTAssertNil(client.requestedURL)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
