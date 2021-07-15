@@ -22,10 +22,10 @@ class RemoteFeedLoaderTests: XCTestCase {
     func test_load_deliverErrorOnClientError() {
         let (sut, client) = makeSUT()
         client.error = NSError(domain: "Test", code: 0)
-        var capturedError: RemoteFeedLoader.Error?
-        sut.load{ error in capturedError = error}
+        var capturedError = [RemoteFeedLoader.Error]()
+        sut.load{ error in capturedError.append(error)}
         
-        XCTAssertEqual(capturedError, .connectivity)
+        XCTAssertEqual(capturedError, [.connectivity])
     }
     func test_loadTwice_requestsDataFromURLTwice() {
         let url = URL(string: "https://a-rul.com")!
