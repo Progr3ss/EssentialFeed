@@ -20,5 +20,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F90B76C2-D5EC-4AB0-BD29-A74D9857785F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentailFeedTests/EssentailFeedTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "test_load_deliverErrorOnNon200HTTPResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F90B76C2-D5EC-4AB0-BD29-A74D9857785F - c14a4a6d5eca2b9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Swift.Int) -&gt; () in EssentailFeedTests.RemoteFeedLoaderTests.test_load_deliverErrorOnNon200HTTPResponse() -&gt; ()"
+                  moduleName = "EssentailFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinchibwe/Documents/LearningiOS_Senior/EssentailFeed/EssentailFeedTests/EssentailFeedTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "F90B76C2-D5EC-4AB0-BD29-A74D9857785F - f2cb8a33186ec194"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (EssentailFeed.RemoteFeedLoader.Error) -&gt; () in closure #1 (Swift.Int, Swift.Int) -&gt; () in EssentailFeedTests.RemoteFeedLoaderTests.test_load_deliverErrorOnNon200HTTPResponse() -&gt; ()"
+                  moduleName = "EssentailFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinchibwe/Documents/LearningiOS_Senior/EssentailFeed/EssentailFeedTests/EssentailFeedTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
