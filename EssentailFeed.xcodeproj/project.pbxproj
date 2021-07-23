@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9121DF3726AA891A00531E3A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121DF3626AA891A00531E3A /* HTTPClient.swift */; };
+		9121DF3926AA899900531E3A /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121DF3826AA899900531E3A /* FeedItemsMapper.swift */; };
 		91379A41269D5E16009C1ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A40269D5E16009C1ECF /* AppDelegate.swift */; };
 		91379A43269D5E16009C1ECF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A42269D5E16009C1ECF /* SceneDelegate.swift */; };
 		91379A45269D5E16009C1ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91379A44269D5E16009C1ECF /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		9121DF3626AA891A00531E3A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		9121DF3826AA899900531E3A /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		91379A3D269D5E16009C1ECF /* EssentailFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentailFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91379A40269D5E16009C1ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91379A42269D5E16009C1ECF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			children = (
 				91379A7626A0DB23009C1ECF /* RemoteFeedLoader.swift */,
 				9121DF3626AA891A00531E3A /* HTTPClient.swift */,
+				9121DF3826AA899900531E3A /* FeedItemsMapper.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				91379A71269D6182009C1ECF /* FeedItem.swift in Sources */,
 				91379A45269D5E16009C1ECF /* ViewController.swift in Sources */,
 				91379A41269D5E16009C1ECF /* AppDelegate.swift in Sources */,
+				9121DF3926AA899900531E3A /* FeedItemsMapper.swift in Sources */,
 				9121DF3726AA891A00531E3A /* HTTPClient.swift in Sources */,
 				91379A73269D61D5009C1ECF /* FeedLoader.swift in Sources */,
 				91379A7726A0DB23009C1ECF /* RemoteFeedLoader.swift in Sources */,
